@@ -1,0 +1,24 @@
+{
+  "name": "pruebascypress",
+  "version": "1.0.0",
+  "description": "Pruebas automatizadas al Proyecto Alice",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --browser chrome --e2e"
+  },
+  "keywords": [
+    "Cypress",
+    "testing",
+    "JavaScript"
+  ],
+  "author": "Luis Alfredo Torres Arenas",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^17.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@shelex/cypress-allure-plugin": "^2.39.0",
+    "cypress": "^12.11.0",
+    "esbuild": "^0.17.18",
+    "multiple-cucumber-html-reporter": "^3.4.0"
+  }
+}
