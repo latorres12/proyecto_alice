@@ -1,6 +1,6 @@
 Feature: Pruebas ALICE
     
-    Feature se realizaran las pruebas correspondientes al app de almuerzos - ALICE
+    Feature se realizaran las pruebas correspondientes a la App de almuerzos - ALICE
 
     Scenario: Deberá cargar la página de login correctamente --> CUF-01
         Given El usuario visitará la pagina
